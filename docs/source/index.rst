@@ -7,15 +7,8 @@ que sistemas de terceiros enviem e recebam informações de forma automática.
 Para obter as informações necessárias para utilziar esta API, entre em contato com
 a NEGOCIARIE (contato@negociarie.com.br) e solicite suas credenciais.
 
-
-Autenticação
-------------
-
 Para autenticação da API, deve ser enviado um token em todos os requests, para obter o token veja a seção Autenticação.
 
-
-Retornos
-------------
 .. success::
     Todas as requisições bem succedidas serão retornadas com ``HTTP 200 (OK)``
 
