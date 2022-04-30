@@ -17,9 +17,6 @@ Para autenticação da API, deve ser enviado um token em todos os requests, para
     ``HTTP 400 (Bad Request)``, ``HTTP 401 (Unauthorized)``, ``HTTP 403 (Forbidden)``, ``HTTP 406 (Not Acceptable)``.
 
 
-Conteúdo
---------
-
 .. toctree::
 
     autenticacao
