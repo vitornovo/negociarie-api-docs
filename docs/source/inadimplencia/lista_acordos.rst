@@ -8,7 +8,7 @@ Para listar todos os acordos efetuados utilize a URL abaixo::
 **Em caso de erro (HTTP Status != 200)**::
 
     {
-        "mensagem": "Falha ao processar sua solicitação"
+        "mensagem": "Falha ao proces    sar sua solicitação"
     }
 
 
