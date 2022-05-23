@@ -5,6 +5,13 @@ Para listar todos os acordos efetuados utilize a URL abaixo::
 
     GET /api/v2/inadimplencia/acordos
 
+Com os seguintes parâmetros::
+
+    {
+        "documento": "99999999999"
+    }
+
+
 **Em caso de erro (HTTP Status != 200)**::
 
     {
