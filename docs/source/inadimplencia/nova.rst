@@ -30,14 +30,14 @@ Para adicionar títutos para cobrança envie na requisição um JSON com as segu
             {
                 "cod_titulo": "8723",
                 "data_vencimento": "2020-01-30",
-                "valor_original": 100.00,
+                "valor": 100.00,
                 "saldo_devedor": 30.00,
                 "numero_parcela": 1
             },
             {
                 "cod_titulo": "8723",
                 "data_vencimento": "2020-02-28",
-                "valor_original": 100.00,
+                "valor": 100.00,
                 "numero_parcela": 2
             }
         ]
