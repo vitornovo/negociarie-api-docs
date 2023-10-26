@@ -16,5 +16,6 @@ Abaixo estão todas as funções disponíveis da cobrança simples
 
     nova
     consulta
+    parcelas-pagas
     baixa_manual
     callback-url

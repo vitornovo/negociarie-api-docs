@@ -26,6 +26,8 @@ Com os seguintes parâmetros::
         "parcelas": [
             {
                 "id_parcela": "8723",
+                "id_status": 800,
+                "status": "PAGA",
                 "link": "https://sistema.negociarie.com.br/.../boleto-8723.pdf', "status": "Liquidação",
                 "data_vencimento": "2020-01-10",
                 "data_pagamento": "2020-01-12",
@@ -36,6 +38,8 @@ Com os seguintes parâmetros::
             },
             {
                 "id_parcela": "8724",
+                "id_status": 801,
+                "status": "EM ABERTO",
                 "link": "https://sistema.negociarie.com.br/.../boleto-8724.pdf' "status": "Entrada Confirmada",
                 "data_vencimento": "2020-01-10",
                 "data_pagamento": null,

@@ -25,4 +25,5 @@ Abaixo estão todas as funções que serão implementadas
     devolucao_titulos
     lista_acordos
     baixa_parcelas
+    parcelas_pagas
     callback-url

@@ -55,7 +55,7 @@ O exemplo acima, possui alguns prarâmetros, que serão explicados abaixo:
 Campos obrigatórios: *.
 
 cliente: objeto com os dados do cliente que será criado as parcelas da cobrança simples
-    - \* documento: CPF ou CNPJ, pode ser com pontos ou sem pontos. Caso seja um cliente que já possui cadastro na NEGOCIARIE, apenas o documento é obrigatório.
+    - \* documento: CPF ou CNPJ, pode ser com pontos ou sem pontos.
     - \* nome: Nome completo do cliente ou nome fantasia caso PJ
     - \* razao_social: Razão social caso PJ. Para PF não é necessário enviar.
     - \* cep: CEP do endereço, pode ser com ou sem traço.
@@ -76,7 +76,7 @@ parcelas: Lista (array) com as parcelas (boletos) que serão criadas no sistema
     - mensagem: máximo de 100 caracteres por linha e 4 linhas, cada linha é separado por \n. Caracteres adicionais serão ignorados.
 
     - desconto_pontualidade: desconto de pontualidade no boleto caso exista, atributo opcional.
-        - valor_desconto: 20.00, // valor do desconto a ser aplicado
+        - percentual: 20, // percentual a ser aplicado sob o valor da parcela (20% neste exemplo)
         - data_limite: data limite para aplicação do desconto no formato Y-m-d (Ex:"2022-12-30"). Deve ser menor ou igual a data de vencimento.
 
 

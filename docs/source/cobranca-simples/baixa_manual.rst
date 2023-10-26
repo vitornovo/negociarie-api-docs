@@ -10,7 +10,7 @@ Baixa de uma parcela
 
 Para efetuar baixas manuais em boletos emitidos utilize a URL abaixo::
 
-    POST /api/v2/cobranca/baixa_manual
+    POST /api/v2/cobranca/baixa-manual
 
 
 Para baixar apenas uma parcela, envie o ID_PARCELA gerado pela negociarie no momento da criação da cobrança simples::
@@ -22,6 +22,7 @@ Para baixar apenas uma parcela, envie o ID_PARCELA gerado pela negociarie no mom
 **Em caso de erro (HTTP Status != 200)**::
 
     {
+        "sucesso": 0,
         "mensagem": "Parcela não encontrada"
     }
 
@@ -29,6 +30,7 @@ Para baixar apenas uma parcela, envie o ID_PARCELA gerado pela negociarie no mom
 **Em caso de sucesso (Status = 200)**::
 
     {
+        "sucesso": 1,
         "mensagem": "Parcela baixada com sucesso"
     }
 
