@@ -1,24 +1,25 @@
-Bem vindo à documentação da API Negociarie!
+.. include:: ../README.rst
+
+Welcome to Lumache's documentation!
 ===================================
 
-**Negociarie** é uma empresa de cobrança que possui esta API para permitir
-que sistemas de terceiros enviem e recebam informações de forma automática.
+**Lumache** (/lu'make/) is a Python library for cooks and food lovers
+that creates recipes mixing random ingredients.
+It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
+and offers a *simple* and *intuitive* API.
 
-Para obter as informações necessárias para utilziar esta API, entre em contato com
-a NEGOCIARIE (contato@negociarie.com.br) e solicite suas credenciais.
+Check out the :doc:`usage` section for further information, including
+how to :ref:`installation` the project.
 
-Para autenticação da API, deve ser enviado um token em todos os requests, para obter o token veja a seção Autenticação.
+.. note::
 
-.. success::
-    Todas as requisições bem succedidas serão retornadas com ``HTTP 200 (OK)``
+   This project is under active development.
 
-.. error::
-    As requisições mal succedidas possuem o atributo ``mensagem`` informando o erro e poderão ter diversos tipos de retorno a depender do erro, exemplos:
-    ``HTTP 400 (Bad Request)``, ``HTTP 401 (Unauthorized)``, ``HTTP 403 (Forbidden)``, ``HTTP 406 (Not Acceptable)``.
-
+Contents
+--------
 
 .. toctree::
 
-    autenticacao
-    cobranca-simples/index
-    inadimplencia/index
+   Home <self>
+   usage
+   api
